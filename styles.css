@@ -11,15 +11,19 @@
   }
 
   nav {
-    
+    float: right;
   }
 
   #black {
     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-color: pink;
   }
 
   #green {
     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-color: paleturquoise;
   }
 
   @media screen 
