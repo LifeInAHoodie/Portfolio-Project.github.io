@@ -10,36 +10,63 @@
 
     <body>
         <nav>
-            <h1>Dylan Jones</h1>
-            <ul>
-                <li><a href="./index.html">About Me</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./skills.html">Skills</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
+            <div class="left">
+                <h1>Dylan Jones</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="./index.html">About Me</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./skills.html">Skills</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <main>
-            <section id="black">
-                <div>
+            <div id="about">
+                <h2>About Me</h2>
+            </div>
+            <section id="columns">
+                <div id="black">
                     <div>
-                        <h2>About Me</h2>
-                        <p>
+                        <p class="text">
                             Hi! I'm Dylan, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.<br />
                             I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.<br />
                             In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.<br />
                         </p>
                     </div>
+                </div>
+                <div id="green">
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br /> 
+                        Ipsa, quo culpa dolor cum exercitationem laborum optio voluptatem provident quisquam natus quasi neque, distinctio odit ex nobis repellendus in minus itaque.
+                    </p>
                     <img>
+                    <!--#47725e-->
                 </div>
             </section>
-
-            <section id="green">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quo culpa dolor cum exercitationem laborum optio voluptatem provident quisquam natus quasi neque, distinctio odit ex nobis repellendus in minus itaque.</p>
-                <!--#47725e-->
+            <section id="projects">
+                <ul id="proj">
+                    <li>To Do List</li>
+                    <li>Memory Book</li>
+                    <li>Book Selector</li>
+                </ul>
             </section>
+
+            <section id="skills">
+                <div>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <img>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <i class="fa fa-wordpress" aria-hidden="true"></i>
+                </div>
+            </section>
+            
         </main>
         <!--maybe add a feature to make anything below the about me section be a clickable drop down div
-        https://www.wix.com/blog/best-portfolio-website https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d https://css-tricks.com/backdrop-filter-effect-with-css/ -->
+        https://www.wix.com/blog/best-portfolio-websites  https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d https://css-tricks.com/backdrop-filter-effect-with-css/ -->
+
         <footer>
             <i class="fa fa-github-square" aria-hidden="true"></i>
         </footer>
