@@ -21,6 +21,11 @@
     width: 45%;
   }
 
+  .left h1 {
+    padding-left: 3%;
+    line-height: 68.1px;
+  }
+
   .right {
     border-style: solid;
     border-color: black;
@@ -30,21 +35,33 @@
   #about {
     display: flex;
     justify-content: center;
+    width: 50%;
     border-style: solid;
     border-color: black;
-    margin: 30px 0px;
+    margin: 30px 5px 30px 0px;
   }
 
-  ul {
+  a {
+    text-decoration: none;
+  }
+
+  .right ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+    justify-content: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .right li {
+    padding-right: 3%;
   }
 
   #proj {
     color:paleturquoise;
     text-shadow: 1px 1px 2px black;
   }
+
 
   #columns {
     display: flex;
@@ -61,7 +78,6 @@
   }
 
   #green {
-    filter: blur(5px);
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -71,6 +87,15 @@
 
   .text {
     padding: 5px;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    margin: 30px 5px 30px 0px;
   }
 
   @media screen 
