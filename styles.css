@@ -18,6 +18,10 @@
     margin-top: 30px;
   }
 
+  div {
+    background-color: white;
+  }
+
   .left {
     border-style: solid;
     border-color: black;
@@ -41,7 +45,7 @@
     width: 50%;
     border-style: solid;
     border-color: black;
-    margin: 30px 5px 30px 0px;
+    margin: 30px auto;
   }
 
   a {
@@ -89,28 +93,37 @@
   }
 
   p {
-    line-height: 2em;
+    line-height: 1.5em;
   }
 
   .text {
     padding: 5px;
   }
 
+  #contact-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+  }
+
   #contact {
     display: flex;
     justify-content: center;
-    width: 100%;
-    border-style: solid;
-    border-color: black;
+    width: 50%;
+    border: solid rgba(0, 0, 0, 0.1);
     margin: 30px 5px 30px 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  #contact ul {
+    font-size: 3em;
   }
 
   img {
     display: flex;
     justify-content: center;
     max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     border: 10px solid #796242;
   }
 
@@ -118,16 +131,30 @@
     width: 300px;
   }
 
+  #progress {
+    display: flex;
+    justify-content: center;
+  }
+
+  #projects {
+    border: black solid;
+    margin: 20px auto;
+    padding: 0 50px;
+  }
+
   #skills {
-    
+    border: black solid;
+    margin: 20px auto;
+  }
+
+  #skills h2 {
+    text-align: center;
   }
 
   #skills-container {
     display: flex;
-    width: 50%;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1%;
   }
 
   #skills-container * {
