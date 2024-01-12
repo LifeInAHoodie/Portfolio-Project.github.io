@@ -26,6 +26,7 @@
     border-style: solid;
     border-color: black;
     width: 45%;
+    background-color: rgba(253, 253, 253, 0.7);
   }
 
   .left h1 {
@@ -38,6 +39,7 @@
     border-style: solid;
     border-color: black;
     width: 45%;
+    background-color: rgba(253, 253, 253, 0.7);
   }
 
   #about {
@@ -47,6 +49,7 @@
     border-style: solid;
     border-color: black;
     margin: 30px auto;
+    background-color: rgba(253, 253, 253, 0.7);
   }
 
   a {
@@ -75,22 +78,53 @@
     display: flex;
     margin-top: 10px;
   }
-
+/*
   #black {
-    /*backdrop-filter: blur(10px);*/
     border-style: solid;
     border-color: black;
     border-radius: 5px;
     width: 50%;
     margin: 0px 5px;
+    
+    background: rgba(180, 159, 169, 0.7);
+    backdrop-filter: blur(50%);
   }
-
+*/
+  
+  #black {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   width: 50%;
+   padding: 5px;
+   background: rgba(255, 255, 255, 0.7);
+   -webkit-box-shadow: 1px 1px 20px 1px #000000;
+   -moz-box-shadow: 1px 1px 20px 1px #000000;
+   box-shadow: 1px 1px 20px 1px #000000;
+   border: solid #000000 2px;
+  }
+  
+/*
   #green {
     border-style: solid;
     border-color: black;
     border-radius: 5px;
     width: 50%;
     margin: 0px 5px;
+  }
+*/
+
+  #green {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5px;
+    background: rgba(194, 243, 218, 0.7);
+    -webkit-box-shadow: 1px 1px 20px 1px #000000;
+    -moz-box-shadow: 1px 1px 20px 1px #000000;
+    box-shadow: 1px 1px 20px 1px #000000;
+    border: solid #000000 2px;
   }
 
   p {
