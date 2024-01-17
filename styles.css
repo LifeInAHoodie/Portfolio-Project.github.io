@@ -18,10 +18,6 @@
     margin-top: 30px;
   }
 
-  div {
-    background-color: white;
-  }
-
   .left {
     border-style: solid;
     border-color: black;
@@ -77,6 +73,7 @@
   #columns {
     display: flex;
     margin-top: 10px;
+    height: 600px;
   }
 /*
   #black {
@@ -102,6 +99,7 @@
    -moz-box-shadow: 1px 1px 20px 1px #000000;
    box-shadow: 1px 1px 20px 1px #000000;
    border: solid #000000 2px;
+   margin: 0 10px;
   }
   
 /*
@@ -125,6 +123,7 @@
     -moz-box-shadow: 1px 1px 20px 1px #000000;
     box-shadow: 1px 1px 20px 1px #000000;
     border: solid #000000 2px;
+    margin: 0 10px;
   }
 
   p {
@@ -138,7 +137,7 @@
   #contact-box {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   #contact {
@@ -177,9 +176,20 @@
     padding: 0 50px;
   }
 
+  #acquired {
+    border: black solid;
+    margin: 20px auto;
+    width: 85%;
+    text-align: center;
+    background-color: rgba(253, 253, 253, 0.5);
+  }
+
   #skills {
     border: black solid;
     margin: 20px auto;
+    width: 75%;
+    height: auto;
+    background-color: rgba(253, 253, 253, 0.5);
   }
 
   #skills h2 {
@@ -190,11 +200,27 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 20px 0 20px;
+    margin: 20px auto;
   }
 
   #skills-container * {
     font-size: 2em;
     width: 2em;
+  }
+
+  #progress {
+
+  }
+
+  #progress-container {
+
+  }
+
+  #progress img {
+    width: 100px;
+    height: auto;
+    border: none;
   }
 
   @media screen 
