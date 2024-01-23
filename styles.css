@@ -69,20 +69,28 @@
     text-shadow: 1px 1px 2px black;
   }
 
-  .projectImage {
-    display: flex;
+  .projectBox {
+    display: block;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     border-style: solid;
     border-color: black;
     margin: 30px auto;
     background-color: rgba(253, 253, 253, 0.7);
   }
 
+  .projectBox h2 {
+    text-align: center;
+  }
+
+  .projectImage {
+    margin: 5%;
+  }
+
   #columns {
     display: flex;
-    margin-top: 10px;
-    height: 600px;
+    margin: 10px 0;
+    max-height: 800px;
   }
 /*
   #black {
@@ -97,7 +105,7 @@
   }
 */
   
-  #black {
+  #black, #green {
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
    border-radius: 5px;
@@ -110,6 +118,15 @@
    border: solid #000000 2px;
    margin: 0 10px;
   }
+
+  #black {
+    max-width: 50%;
+  }
+
+  #green {
+    max-width: 50%;
+    margin-left: auto;
+  }
   
 /*
   #green {
@@ -121,26 +138,12 @@
   }
 */
 
-  #green {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    width: 50%;
-    padding: 5px;
-    background: rgba(194, 243, 218, 0.7);
-    -webkit-box-shadow: 1px 1px 20px 1px #000000;
-    -moz-box-shadow: 1px 1px 20px 1px #000000;
-    box-shadow: 1px 1px 20px 1px #000000;
-    border: solid #000000 2px;
-    margin: 0 10px;
-  }
-
   p {
     line-height: 1.5em;
   }
 
   .text {
-    padding: 5px;
+    padding: 8%;
   }
 
   #contact-box {
@@ -170,9 +173,15 @@
     border: 10px solid #796242;
   }
 
-  .portrait {
+  #portrait {
     width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
   }
+
+  #portrait.expanded {
+    transform: scale(1.5);
+}
 
   #progress {
     display: flex;
@@ -241,5 +250,5 @@
   @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) {
-
+    
   }
